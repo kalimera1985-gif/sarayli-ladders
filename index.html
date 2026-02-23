@@ -4,17 +4,164 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
-  <!-- Базовое SEO -->
+  <!-- Базовое SEO (расширено) -->
   <title>Sarayli.kz | Цех полуфабрикатов в Астане — манты, пельмени, вареники, самса</title>
   <meta name="description" content="Свежие манты, пельмени, вареники, хинкали и другие полуфабрикаты от Sarayli в Астане. Натуральные продукты без консервантов. Доставка по городу. Тел: +7 778 651 05 56 | Instagram @sarayli.kz"/>
-  <meta name="keywords" content="sarayli kz, полуфабрикаты Астана, манты Астана, пельмени купить, вареники свежие, хинкали Астана, самса, свежее, Свежие, доставка полуфабрикатов Астана"/>
-  
+  <meta name="keywords" content="sarayli kz, полуфабрикаты Астана, манты Астана, пельмени купить, вареники свежие, хинкали Астана, самса, свежее, Свежие, доставка полуфабрикатов Астана, натуральные полуфабрикаты Астана"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://sarayli.kz/"/>
+  <!-- Для будущего казахского варианта -->
+  <link rel="alternate" hreflang="ru" href="https://sarayli.kz/"/>
+  <!-- <link rel="alternate" hreflang="kk" href="https://sarayli.kz/kz/"/> --> <!-- раскомментируй когда добавишь -->
+
   <!-- Open Graph для Instagram и соцсетей -->
   <meta property="og:title" content="Sarayli.kz — Цех свежих полуфабрикатов в Астане"/>
   <meta property="og:description" content="Манты, пельмени, вареники, хинкали — всё свежее и вкусное. Доставка по Астане. Звоните: +7 778 651 05 56"/>
   <meta property="og:image" content="https://i.ibb.co/4zd8pjm/500.png"/>
   <meta property="og:url" content="https://sarayli.kz"/>
   <meta property="og:type" content="website"/>
+
+  <!-- Structured Data: FoodEstablishment + продукты -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Sarayli.kz — Цех полуфабрикатов",
+    "url": "https://sarayli.kz",
+    "telephone": "+77786510556",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Еділ 25",
+      "addressLocality": "Астана",
+      "addressRegion": "Астана",
+      "postalCode": "010000",
+      "addressCountry": "KZ"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.1605,
+      "longitude": 71.4704
+    },
+    "areaServed": "Астана",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Пельмени с говядиной",
+          "image": "https://i.ibb.co/4zd8pjm/500.png",
+          "description": "Свежие пельмени с говядиной 500 гр"
+        },
+        "price": "2350",
+        "priceCurrency": "KZT",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Пельмени с курицей",
+          "image": "https://i.ibb.co/tP89WDZz/500.png",
+          "description": "Свежие пельмени с курицей 500 гр"
+        },
+        "price": "1850",
+        "priceCurrency": "KZT",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Манты с говядиной",
+          "image": "https://i.ibb.co/WpqwhKL6/500.png",
+          "description": "Свежие манты с говядиной 500 гр"
+        },
+        "price": "2300",
+        "priceCurrency": "KZT",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Самса с говядиной",
+          "image": "https://i.ibb.co/pBnstqZd/500.png",
+          "description": "Свежая самса с говядиной 500 гр"
+        },
+        "price": "2160",
+        "priceCurrency": "KZT",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Вареники с картошкой",
+          "image": "https://i.ibb.co/Ldf87Y20/500.png",
+          "description": "Свежие вареники с картошкой 500 гр"
+        },
+        "price": "1000",
+        "priceCurrency": "KZT",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Вареники с творогом",
+          "image": "https://i.ibb.co/7JbpJtYG/500.png",
+          "description": "Свежие вареники с творогом 500 гр"
+        },
+        "price": "1350",
+        "priceCurrency": "KZT",
+        "availability": "https://schema.org/InStock"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Самса с курицей",
+          "image": "https://i.ibb.co/wFKrvXyF/500.png",
+          "description": "Свежая самса с курицей 500 гр"
+        },
+        "price": "2000",
+        "priceCurrency": "KZT",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Analytics (замени G-XXXXXX на свой Measurement ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXX');
+  </script>
+
+  <!-- Yandex.Metrica (замени 00000000 на свой номер счётчика) -->
+  <script type="text/javascript" >
+     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+     ym(00000000, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true
+     });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/00000000" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
@@ -135,6 +282,34 @@
     footer a:hover {
       text-decoration: underline;
     }
+    .form-section {
+      max-width: 600px;
+      margin: 4rem auto;
+      padding: 2rem;
+      background: #f9f9f9;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .form-section h2 {
+      color: #c62828;
+      margin-bottom: 1.5rem;
+    }
+    .form-section input,
+    .form-section button {
+      width: 100%;
+      padding: 1rem;
+      margin: 0.8rem 0;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      font-size: 1.1rem;
+    }
+    .form-section button {
+      background: #c62828;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
     @media (max-width: 768px) {
       .hero h1 { font-size: 3rem; }
       .hero p { font-size: 1.3rem; }
@@ -162,84 +337,95 @@
 
       <!-- Фото 1 -->
       <div class="card">
-        <img src="https://i.ibb.co/4zd8pjm/500.png" alt="Пельмени Sarayli — свежие полуфабрикаты в Астане">
+        <img src="https://i.ibb.co/4zd8pjm/500.png" alt="Пельмени Sarayli с говядиной — свежие полуфабрикаты в Астане" loading="lazy">
         <div class="card-content">
           <h3>Пельмени с говядиной</h3>
-          <div class="price">2 350 ₸/500 гр.</div>
-          <a href="tel:+77786510556" class="btn">Заказать по телефону</a>
-          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn">Написать в WhatsApp</a>
+          <div class="price">1 650 ₸/500 гр.</div>
+          <a href="tel:+77786510556" class="btn" title="Заказать пельмени с говядиной по телефону">Заказать по телефону</a>
+          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn" title="Написать в WhatsApp про пельмени с говядиной">Написать в WhatsApp</a>
         </div>
       </div>
 
       <!-- Фото 2 -->
-	  <div class="card">
-        <img src="https://i.ibb.co/tP89WDZz/500.png" alt="Пельмени Sarayli — купить в Астане">
+      <div class="card">
+        <img src="https://i.ibb.co/tP89WDZz/500.png" alt="Пельмени Sarayli с курицей — купить свежие в Астане" loading="lazy">
         <div class="card-content">
           <h3>Пельмени с курицей</h3>
-          <div class="price">1 850 ₸/500 гр.</div>
-          <a href="tel:+77786510556" class="btn">Заказать по телефону</a>
-          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn">Написать в WhatsApp</a>
+          <div class="price">1 300 ₸/500 гр.</div>
+          <a href="tel:+77786510556" class="btn" title="Заказать пельмени с курицей">Заказать по телефону</a>
+          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn" title="WhatsApp — пельмени с курицей">Написать в WhatsApp</a>
         </div>
       </div>
-      
 
       <!-- Фото 3 -->
-	  <div class="card">
-        <img src="https://i.ibb.co/WpqwhKL6/500.png" alt="Манты Sarayli — свежие полуфабрикаты">
+      <div class="card">
+        <img src="https://i.ibb.co/WpqwhKL6/500.png" alt="Манты Sarayli с говядиной — свежие полуфабрикаты Астана" loading="lazy">
         <div class="card-content">
           <h3>Манты с говядиной</h3>
-          <div class="price">2 300 ₸/500 гр.</div>
-          <a href="tel:+77786510556" class="btn">Заказать по телефону</a>
-          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn">Написать в WhatsApp</a>
+          <div class="price">1 600 ₸/500 гр.</div>
+          <a href="tel:+77786510556" class="btn" title="Заказать манты с говядиной">Заказать по телефону</a>
+          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn" title="WhatsApp — манты с говядиной">Написать в WhatsApp</a>
         </div>
       </div>
-      
 
       <!-- Фото 4 -->
       <div class="card">
-        <img src="https://i.ibb.co/pBnstqZd/500.png" alt="Самса Sarayli — купить в Астане">
+        <img src="https://i.ibb.co/pBnstqZd/500.png" alt="Самса Sarayli с говядиной — свежая в Астане" loading="lazy">
         <div class="card-content">
           <h3>Самса с говядиной</h3>
-          <div class="price">2 160 ₸/500 гр.</div>
-          <a href="tel:+77786510556" class="btn">Заказать по телефону</a>
-          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn">Написать в WhatsApp</a>
+          <div class="price">1 500 ₸/500 гр.</div>
+          <a href="tel:+77786510556" class="btn" title="Заказать самсу с говядиной">Заказать по телефону</a>
+          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn" title="WhatsApp — самса с говядиной">Написать в WhatsApp</a>
         </div>
       </div>
 
       <!-- Фото 5 -->
       <div class="card">
-        <img src="https://i.ibb.co/Ldf87Y20/500.png" alt="Вареники Sarayli — свежие полуфабрикаты">
+        <img src="https://i.ibb.co/Ldf87Y20/500.png" alt="Вареники Sarayli с картошкой — свежие полуфабрикаты" loading="lazy">
         <div class="card-content">
           <h3>Вареники с картошкой</h3>
-          <div class="price">1 000 ₸/500 гр.</div>
-          <a href="tel:+77786510556" class="btn">Заказать по телефону</a>
-          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn">Написать в WhatsApp</a>
+          <div class="price"> 700 ₸/500 гр.</div>
+          <a href="tel:+77786510556" class="btn" title="Заказать вареники с картошкой">Заказать по телефону</a>
+          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn" title="WhatsApp — вареники с картошкой">Написать в WhatsApp</a>
         </div>
       </div>
 
       <!-- Фото 6 -->
       <div class="card">
-        <img src="https://i.ibb.co/7JbpJtYG/500.png" alt="Вареники Sarayli — купить в Астане">
+        <img src="https://i.ibb.co/7JbpJtYG/500.png" alt="Вареники Sarayli с творогом — купить в Астане" loading="lazy">
         <div class="card-content">
           <h3>Вареники с творогом</h3>
-          <div class="price">1 350 ₸/500 гр.</div>
-          <a href="tel:+77786510556" class="btn">Заказать по телефону</a>
-          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn">Написать в WhatsApp</a>
+          <div class="price"> 950 ₸/500 гр.</div>
+          <a href="tel:+77786510556" class="btn" title="Заказать вареники с творогом">Заказать по телефону</a>
+          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn" title="WhatsApp — вареники с творогом">Написать в WhatsApp</a>
         </div>
       </div>
 
       <!-- Фото 7 -->
       <div class="card">
-        <img src="https://i.ibb.co/wFKrvXyF/500.png" alt="Самса Sarayli — свежие полуфабрикаты">
+        <img src="https://i.ibb.co/wFKrvXyF/500.png" alt="Самса Sarayli с курицей — свежие полуфабрикаты Астана" loading="lazy">
         <div class="card-content">
           <h3>Самса с курицей</h3>
-          <div class="price">2 000 ₸/500 гр.</div>
-          <a href="tel:+77786510556" class="btn">Заказать по телефону</a>
-          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn">Написать в WhatsApp</a>
+          <div class="price">1 400 ₸/500 гр.</div>
+          <a href="tel:+77786510556" class="btn" title="Заказать самсу с курицей">Заказать по телефону</a>
+          <a href="https://wa.me/77786510556" target="_blank" class="btn whatsapp-btn" title="WhatsApp — самса с курицей">Написать в WhatsApp</a>
         </div>
       </div>
 
     </div>
+
+    <!-- Дополнительная форма заказа (Formspree — зарегистрируйся на formspree.io и замени /f/xxxx на свой endpoint) -->
+    <div class="form-section">
+      <h2>Быстрый заказ с доставкой по Астане</h2>
+      <form action="https://formspree.io/f/mlgwoaqn" method="POST">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="tel" name="phone" placeholder="Телефон" required>
+        <input type="text" name="product" placeholder="Что хотите заказать? (от 10 тыс доставка беплатная)">
+        <button type="submit">Отправить заказ</button>
+      </form>
+      <p style="margin-top:1rem; font-size:0.95rem;">Мы свяжемся с вами в течение 15 минут</p>
+    </div>
+
   </main>
 
   <footer>
@@ -248,6 +434,14 @@
     📞 +7 778 651 05 56 | WhatsApp<br>
     Инстаграм: <a href="https://instagram.com/sarayli.kz" target="_blank">@sarayli.kz</a><br>
     © 2026 Sarayli.kz — цех полуфабрикатов</p>
+
+    <!-- Простая статическая карта (2GIS или Yandex) -->
+    <div style="margin-top:2rem;">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ayour_hash_or_use_2gis&lang=ru_RU&scroll=true" width="100%" height="300" frameborder="0"></iframe>
+      <!-- Или 2GIS: https://2gis.kz/astana/firm/70000001000000000/widget -->
+      <!-- Для интерактивной Yandex Maps с ключом: получи ключ и замени ниже -->
+      <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=ВАШ_API_КЛЮЧ&lang=ru_RU"></script> -->
+    </div>
   </footer>
 
 </body>
