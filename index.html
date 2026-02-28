@@ -33,7 +33,7 @@
     gtag('config', 'G-JX3H1HX4QY', { 'send_page_view': true });
   </script>
 
-  <!-- Yandex.Metrica (ваш реальный номер счётчика вставлен) -->
+  <!-- Yandex.Metrica -->
   <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -48,8 +48,8 @@
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/107051685" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
-  <!-- reCAPTCHA v3 (скрытая) — ЗАМЕНИТЕ your_sitekey_here на ваш ключ -->
-  <script src="https://www.google.com/recaptcha/api.js?render=your_sitekey_here"></script>
+  <!-- reCAPTCHA v3 (скрытая) — ваш Site key вставлен -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcNGXssAAAAAIyIViWSGEut1xlKuAZ61pwA2pda"></script>
 
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
@@ -404,7 +404,7 @@
           'event_label': 'Phone Button',
           'value': 1 
         });
-        // ym(107051685, 'reachGoal', 'phone_call'); // раскомментировать, если хотите цель в Метрике
+        // ym(107051685, 'reachGoal', 'phone_call'); // если хотите цель в Метрике
       });
     });
 
@@ -418,6 +418,19 @@
         // ym(107051685, 'reachGoal', 'whatsapp_click');
       });
     });
+
+    // Пример: получение токена reCAPTCHA v3 при клике на кнопку (можно привязать к форме)
+    // document.querySelector('.some-submit-btn')?.addEventListener('click', function(e) {
+    //   e.preventDefault();
+    //   grecaptcha.ready(function() {
+    //     grecaptcha.execute('6LcNGXssAAAAAIyIViWSGEut1xlKuAZ61pwA2pda', {action: 'submit'}).then(function(token) {
+    //       console.log('reCAPTCHA token:', token);
+    //       // здесь можно добавить token в скрытое поле формы
+    //       // document.querySelector('[name="g-recaptcha-response"]').value = token;
+    //       // затем отправить форму
+    //     });
+    //   });
+    // });
   </script>
 
 </body>
