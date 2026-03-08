@@ -135,12 +135,49 @@
 </header>
 </header>
 
-<!-- HERO -->
-<section class="hero-bg h-[70vh] md:h-screen flex items-center text-white">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">SARAYLI — надёжность на высоте<br></h1>
-        <p class="text-lg md:text-xl mb-10">Платформы, вышки-туры, трансформеры, трехсекционные лестницы, стремянки — напрямую от производителя. Доставка по Астане и по всему Казахстану.</p>
-        <a href="#catalog" class="inline-block bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-full text-lg font-semibold transition">Смотреть каталог</a>
+<!-- HERO с реальным изображением imagehero.png – мобильный first, 2026 стиль -->
+<section class="relative h-[55vh] min-h-[380px] sm:h-[65vh] overflow-hidden bg-gray-900">
+    <!-- Preload для мгновенной загрузки на мобильных -->
+    <link rel="preload" href="imagehero.png" as="image">
+
+    <!-- Фоновая картинка -->
+    <div class="absolute inset-0">
+        <img 
+            src="imagehero.png"
+            alt="SARAYLI — профессиональные алюминиевые лестницы, стремянки, вышки-туры и платформы в Казахстане"
+            class="w-full h-full object-cover brightness-[0.78] contrast-[1.08] saturate-[1.05]"
+            loading="eager"
+            decoding="async"
+        >
+    </div>
+
+    <!-- Тёмный градиент-оверлей для читаемости текста -->
+    <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/35 to-transparent/30"></div>
+
+    <!-- Основной контент – центрирован, thumb-friendly -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-5 sm:px-8 max-w-4xl mx-auto">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 sm:mb-6 drop-shadow-2xl tracking-tight">
+            SARAYLI —<br class="sm:hidden"> надёжность<br>на высоте
+        </h1>
+        
+        <p class="text-base sm:text-lg md:text-xl mb-6 sm:mb-10 max-w-3xl drop-shadow-lg leading-relaxed">
+            Платформы, вышки-туры, трансформеры, трехсекционные лестницы, стремянки —<br class="hidden sm:inline">
+            напрямую от производителя. Доставка по Астане, Алматы и всему Казахстану.
+        </p>
+
+        <!-- Две кнопки – основная + вторичная (WhatsApp) -->
+        <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto">
+            <a href="#catalog" 
+               class="bg-green-600 hover:bg-green-700 active:bg-green-800 text-white px-8 py-4 rounded-full text-lg font-bold shadow-xl transition-all duration-200 transform hover:scale-105 active:scale-100 flex items-center justify-center">
+                Смотреть каталог
+            </a>
+            
+            <a href="https://wa.me/77075061928?text=Здравствуйте!+Хочу+узнать+цены+и+наличие+моделей+SARAYLI" 
+               class="bg-white/15 backdrop-blur-md hover:bg-white/25 border border-white/40 text-white px-8 py-4 rounded-full text-lg font-bold transition-all duration-200 flex items-center justify-center gap-2">
+                <i class="fab fa-whatsapp text-xl"></i>
+                Написать в WhatsApp
+            </a>
+        </div>
     </div>
 </section>
 
@@ -353,6 +390,7 @@
 </script>
 </body>
 </html>
+
 
 
 
