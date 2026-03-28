@@ -3,404 +3,677 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Купить лестницы и стремянки SARAYLI в Казахстане. Алюминиевые стремянки, трансформеры, вышки-туры, платформы. Доставка по Алматы, Астане и всему КЗ. Официальный поставщик.">
-    <meta name="keywords" content="SARAYLI, стремянка SARAYLI, лестница трансформер SARAYLI, вышка-тура SARAYLI, алюминиевые лестницы Казахстан, платформы SARAYLI">
-    <title>SARAYLI Казахстан | Лестницы, стремянки, платформы — купить</title>
-
-    <!-- ДЛЯ ПОЛНОЦЕННОГО ПРОДВИЖЕНИЯ И РЕКЛАМЫ -->
-    <!-- Robots + Canonical -->
+    <meta name="description" content="SARAYLI Казахстан — премиум алюминиевые лестницы, стремянки, платформы и вышки-туры из Турции. Надёжность, безопасность, доставка по Астане, Алматы и всему КЗ. Официальный поставщик.">
+    <meta name="keywords" content="SARAYLI, стремянка SARAYLI, лестница SARAYLI, платформа SARAYLI, вышка-тура SARAYLI, алюминиевые лестницы Казахстан, трансформер SARAYLI, купить стремянку Астана">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://sarayli.kz">
+    <title>SARAYLI Казахстан | Лестницы и стремянки — Надёжность на высоте</title>
 
-    <!-- Open Graph (для красивых превью в Google Ads, Facebook, WhatsApp) -->
+    <!-- Open Graph / Social для Google Ads, WhatsApp, FB -->
     <meta property="og:title" content="SARAYLI Казахстан | Лестницы, стремянки, платформы — купить">
-    <meta property="og:description" content="Платформы, вышки-туры, трансформеры, трехсекционные лестницы, стремянки — напрямую от производителя. Доставка по Астане и по всему Казахстану.">
+    <meta property="og:description" content="Премиум турецкие лестницы SARAYLI. 150+ кг нагрузка, 12 месяцев гарантии. Доставка по всему Казахстану.">
     <meta property="og:image" content="https://i.ibb.co/Q7RRk4ZZ/8505.png">
     <meta property="og:url" content="https://sarayli.kz">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="SARAYLI Казахстан">
 
-    <!-- Google Tag Manager (для Google Ads + GA4 + конверсий) -->
+    <!-- Google Tag Manager -->
     <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-W2BD4GQR');
     </script>
 
-    <!-- Yandex.Metrica (обязательно для РК в Казахстане и Яндекс.Директ) -->
-    <script type="text/javascript">
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-        ym(XXXXXX, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true,
-            ecommerce:"dataLayer"
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/XXXXXX" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
+    <!-- Tailwind CSS CDN (core utilities) -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- Lucide Icons CDN (для React-подобного опыта) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 
-   <!-- Маленький CSS-анимация появления текста (добавь в <style> или в конец <head>) -->
- <style>
-        .product-card { transition: all 0.3s; }
-        .product-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
-        .hero-bg { 
-            background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), 
-                              url('https://picsum.photos/id/1015/1920/1080'); 
-            background-size: cover; 
-            background-position: center; 
-        }
-        .swiper-slide { height: auto; }
-        .swiper-button-next, .swiper-button-prev { color: #2563eb !important; }
-        .swiper-pagination-bullet-active { background: #2563eb !important; }
-   @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(20px); }
-        to   { opacity: 1; transform: translateY(0); }
-    }
-    .animate-fade-in {
-        animation: fadeIn 1.2s ease-out forwards;
-    } </style>
-</head>
-<body class="bg-gray-50 font-sans">
-
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2BD4GQR"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-
-<!-- HEADER -->
-<header class="bg-white shadow-sm sticky top-0 z-50 transition-shadow duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16 sm:h-20">
-            <!-- Левая часть: логотип -->
-            <a href="/" class="flex items-center flex-shrink-0">
-                <img
-                    src="logosaraylipng.png"
-                    alt="SARAYLI Казахстан — официальный поставщик лестниц и стремянок"
-                    class="h-10 sm:h-14 max-w-[180px] sm:max-w-[220px] w-auto object-contain transition-transform duration-200 hover:scale-105"
-                    loading="eager"
-                    decoding="async"
-                >
-            </a>
-
-            <!-- Правая часть: десктопное меню + поиск + контакты -->
-            <div class="hidden md:flex items-center gap-6 lg:gap-10">
-                <!-- Поиск -->
-                <div class="relative w-64 lg:w-80">
-                    <input
-                        type="text"
-                        placeholder="Поиск по модели или артикулу…"
-                        class="w-full pl-10 pr-4 py-2.5 bg-gray-50 border border-gray-300 rounded-full text-sm focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500 transition"
-                    >
-                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 text-lg"></i>
-                </div>
-
-                <!-- Навигация -->
-                <nav class="flex items-center gap-8 text-sm font-medium">
-                    <a href="/" class="text-gray-700 hover:text-green-600 transition">Главная</a>
-                    <a href="#catalog" class="text-gray-700 hover:text-green-600 transition">Каталог</a>
-                    <a href="#" class="text-gray-700 hover:text-green-600 transition">Доставка</a>
-                    <a href="#" class="text-gray-700 hover:text-green-600 transition">Контакты</a>
-                </nav>
-
-                <!-- WhatsApp + корзина -->
-                <div class="flex items-center gap-6">
-                    <a href="https://wa.me/77075061928" class="flex items-center gap-2 text-green-600 hover:text-green-700 font-medium transition">
-                        <i class="fa-brands fa-whatsapp text-2xl"></i>
-                        <span class="hidden lg:inline">+7 707 506 19 28</span>
-                    </a>
-                    <button class="relative text-gray-700 hover:text-green-600 transition">
-                        <i class="fa-solid fa-cart-shopping text-2xl"></i>
-                        <span class="absolute -top-1.5 -right-1.5 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center border-2 border-white">
-                            0
-                        </span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Мобильная версия: только WhatsApp + бургер (пока без бургера, можно добавить позже) -->
-            <div class="md:hidden flex items-center gap-5">
-                <a href="https://wa.me/77075061928" class="text-green-600">
-                    <i class="fa-brands fa-whatsapp text-3xl"></i>
-                </a>
-                <!-- Здесь можно вставить кнопку бургер-меню позже -->
-                <!-- <button class="text-gray-700"><i class="fa-solid fa-bars text-2xl"></i></button> -->
-            </div>
-        </div>
-    </div>
-</header>
-</header>
-
-<!-- HERO — финальная версия 2026 с imagehero.png, мобильный first, продающий -->
-<section class="relative h-[58vh] min-h-[400px] sm:h-[68vh] overflow-hidden bg-gray-900 isolate">
-    <!-- Preload для мгновенной загрузки на мобильных -->
-    <link rel="preload" href="imagehero.png" as="image">
-
-    <!-- Фоновая картинка -->
-    <div class="absolute inset-0 -z-10">
-        <img 
-            src="imagehero.png"
-            alt="SARAYLI — алюминиевые стремянки, лестницы-трансформеры, вышки-туры и платформы в Казахстане"
-            class="w-full h-full object-cover brightness-[0.82] contrast-[1.1] saturate-[1.08]"
-            loading="eager"
-            decoding="async"
-        >
-    </div>
-
-    <!-- Тёмный градиент-оверлей для читаемости -->
-    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent/20 -z-10"></div>
-
-    <!-- Основной контент -->
-    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-5 sm:px-8">
-        <h1 class="text-3.5xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-5 sm:mb-7 drop-shadow-2xl tracking-tight animate-fade-in">
-            SARAYLI —<br class="sm:hidden"> надёжность<br>на высоте
-        </h1>
-
-        <p class="text-base sm:text-lg md:text-xl mb-7 sm:mb-10 max-w-3xl drop-shadow-lg leading-relaxed">
-            Платформы, вышки-туры, трансформеры, стремянки — напрямую от производителя.<br class="hidden sm:inline">
-            Быстрая доставка по Астане, Алматы и всему Казахстану.
-        </p>
-
-        <!-- Кнопки — крупные, контрастные, в thumb-зоне -->
-        <div class="flex flex-col sm:flex-row gap-5 sm:gap-7 w-full sm:w-auto justify-center">
-            <a href="#catalog" 
-               class="bg-green-600 hover:bg-green-700 active:bg-green-800 text-white px-9 py-5 rounded-2xl text-xl sm:text-2xl font-bold shadow-2xl transition-all duration-200 transform hover:scale-105 active:scale-98 flex items-center justify-center">
-                Смотреть каталог
-            </a>
-
-            <a href="https://wa.me/77075061928?text=Здравствуйте!+Покажите+пожалуйста+актуальные+цены+и+наличие+моделей+SARAYLI" 
-               class="bg-white/20 backdrop-blur-lg hover:bg-white/30 border-2 border-white/50 text-white px-9 py-5 rounded-2xl text-xl sm:text-2xl font-bold transition-all duration-200 flex items-center justify-center gap-3">
-                <i class="fab fa-whatsapp text-2xl sm:text-3xl"></i>
-                Написать в WhatsApp
-            </a>
-        </div>
-    </div>
-</section>
-<!-- КАТАЛОГ → SWIPER -->
-<section id="catalog" class="max-w-7xl mx-auto px-6 py-16">
-    <div class="flex justify-between items-center mb-10">
-        <h2 class="text-4xl font-bold">Некоторые модели SARAYLI</h2>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&display=swap');
         
-        <!-- Кнопка скачивания полного каталога -->
-        <a href="Каталог 2023.pdf" 
-           download="Каталог 2023.pdf"
-           class="flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-2xl text-sm font-medium transition">
-            <i class="fa-solid fa-download text-lg"></i>
-            Скачать весь каталог
-        </a>
-    </div>
-
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-
-            <!-- Slide 1 -->
-            <div class="swiper-slide">
-                <div class="product-card bg-white rounded-2xl overflow-hidden shadow h-full flex flex-col">
-                    <img src="https://i.ibb.co/Q7RRk4ZZ/8505.png" alt="Односторонняя платформа на колесах с перилами SARAYLI 8505" class="w-full h-64 object-contain p-4 bg-gray-50">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="font-semibold text-lg mb-6">Односторонняя платформа на колесах с перилами 8505</h3>
-                        <div class="mt-auto">
-                            <a href="https://wa.me/77075061928?text=Хочу+заказать+8505" 
-                               class="block bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-xl text-sm font-medium">
-                                Написать в WhatsApp
-                            </a>
-                        </div>
-                    </div>
+        :root {
+            --bg-primary: #050508;
+            --accent-from: #f97316;
+            --accent-to: #0ea5e9;
+            --card-bg: rgba(255,255,255,0.06);
+            --border: rgba(255,255,255,0.1);
+        }
+        
+        * { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+        
+        .tailwind-ready { font-family: 'Inter', system_ui, sans-serif; }
+        .heading-font { font-family: 'Space Grotesk', sans-serif; }
+        
+        /* Keyframes для анимаций (как в React с CSS-in-JS) */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes floatBlob {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            50% { transform: translate(30px, -30px) rotate(15deg); }
+        }
+        @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 20px -5px rgb(249 115 22); }
+            50% { box-shadow: 0 0 40px 15px rgb(14 165 233); }
+        }
+        @keyframes countUp {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .hero-bg {
+            background: radial-gradient(circle at 30% 20%, rgba(249,115,22,0.15) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(14,165,233,0.15) 0%, transparent 50%);
+        }
+        
+        .glass {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border);
+        }
+        
+        .section-enter {
+            animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+        
+        .navbar-scrolled {
+            background: rgba(5,5,8,0.95);
+            backdrop-filter: blur(20px);
+        }
+        
+        .blob {
+            animation: floatBlob 25s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="tailwind-ready bg-[#050508] text-white overflow-x-hidden">
+    <!-- NAVBAR (React-like sticky + scroll effect) -->
+    <nav id="navbar" class="sticky top-0 z-50 bg-[#050508]/80 backdrop-blur-lg border-b border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-6 py-5 flex items-center justify-between">
+            <!-- Логотип -->
+            <div class="flex items-center gap-x-3">
+                <div class="w-9 h-9 bg-gradient-to-br from-[#f97316] to-[#0ea5e9] rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 01-2-2H7a2 2 0 01-2 2v16m14 0h-4m-6 0H5" />
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="heading-font text-2xl font-semibold tracking-[-1px]">SARAYLI</h1>
+                    <p class="text-[10px] text-white/60 -mt-1">КАЗАХСТАН</p>
                 </div>
             </div>
 
-            <!-- Slide 2 -->
-            <div class="swiper-slide">
-                <div class="product-card bg-white rounded-2xl overflow-hidden shadow h-full flex flex-col">
-                    <img src="https://i.ibb.co/V0yr4FK0/8408-E.png" alt="Промышленная платформа на колесах с перилами SARAYLI 8408-Е" class="w-full h-64 object-contain p-4 bg-gray-50">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="font-semibold text-lg mb-6">Промышленная платформа на колесах 8408-Е</h3>
-                        <div class="mt-auto">
-                            <a href="https://wa.me/77075061928?text=Хочу+заказать+8408-Е" 
-                               class="block bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-xl text-sm font-medium">
-                                Написать в WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
+                <a href="#catalog" onclick="smoothScrollTo('catalog')" class="hover:text-[#f97316]">Каталог</a>
+                <a href="#advantages" onclick="smoothScrollTo('advantages')" class="hover:text-[#f97316]">Преимущества</a>
+                <a href="#how" onclick="smoothScrollTo('how')" class="hover:text-[#f97316]">Как это работает</a>
+                <a href="#reviews" onclick="smoothScrollTo('reviews')" class="hover:text-[#f97316]">Отзывы</a>
+                <a href="#faq" onclick="smoothScrollTo('faq')" class="hover:text-[#f97316]">FAQ</a>
             </div>
 
-            <!-- Slide 3 -->
-            <div class="swiper-slide">
-                <div class="product-card bg-white rounded-2xl overflow-hidden shadow h-full flex flex-col">
-                    <img src="https://i.ibb.co/xqz20V0k/8105.png" alt="Платформа односторонняя складная SARAYLI 8105" class="w-full h-64 object-contain p-4 bg-gray-50">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="font-semibold text-lg mb-6">Платформа односторонняя складная 8105</h3>
-                        <div class="mt-auto">
-                            <a href="https://wa.me/77075061928?text=Хочу+заказать+8105" 
-                               class="block bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-xl text-sm font-medium">
-                                Написать в WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="flex items-center gap-x-4">
+                <a href="https://wa.me/77075061928" target="_blank"
+                   class="flex items-center gap-x-2 bg-white/10 hover:bg-white/20 text-white px-5 h-10 rounded-3xl text-sm font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2.01 2.01 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2" />
+                    </svg>
+                    <span class="hidden sm:inline">+7 707 506 19 28</span>
+                </a>
+                
+                <!-- CTA Button -->
+                <button onclick="document.getElementById('catalog').scrollIntoView({ behavior: 'smooth' })"
+                        class="bg-gradient-to-r from-[#f97316] to-[#0ea5e9] text-white px-6 h-10 rounded-3xl font-semibold flex items-center gap-x-2 hover:scale-105 active:scale-95">
+                    <span>Купить сейчас</span>
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </button>
+
+                <!-- Mobile Burger -->
+                <button onclick="toggleMobileMenu()" class="md:hidden w-10 h-10 flex items-center justify-center">
+                    <i data-lucide="menu" id="burger-icon" class="w-6 h-6"></i>
+                </button>
             </div>
-
-            <!-- Slide 4 -->
-            <div class="swiper-slide">
-                <div class="product-card bg-white rounded-2xl overflow-hidden shadow h-full flex flex-col">
-                    <img src="https://i.ibb.co/tw43BbjX/5313.png" alt="Вышка-тура SARAYLI 5313" class="w-full h-64 object-contain p-4 bg-gray-50">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="font-semibold text-lg mb-6">Вышка-тура 5313</h3>
-                        <div class="mt-auto">
-                            <a href="https://wa.me/77075061928?text=Хочу+заказать+5313" 
-                               class="block bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-xl text-sm font-medium">
-                                Написать в WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 5 -->
-            <div class="swiper-slide">
-                <div class="product-card bg-white rounded-2xl overflow-hidden shadow h-full flex flex-col">
-                    <img src="https://i.ibb.co/V0wFfQ4W/5311.png" alt="Вышка-тура SARAYLI 5311" class="w-full h-64 object-contain p-4 bg-gray-50">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="font-semibold text-lg mb-6">Вышка-тура 5311</h3>
-                        <div class="mt-auto">
-                            <a href="https://wa.me/77075061928?text=Хочу+заказать+5311" 
-                               class="block bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-xl text-sm font-medium">
-                                Написать в WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Можно добавить остальные товары аналогичным образом -->
-
         </div>
 
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination mt-8"></div>
-    </div>
-</section>
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-[#050508] z-50 px-6 py-6">
+            <div class="flex justify-end mb-8">
+                <button onclick="toggleMobileMenu()" class="text-white">
+                    <i data-lucide="x" class="w-8 h-8"></i>
+                </button>
+            </div>
+            <div class="flex flex-col gap-y-6 text-lg font-medium">
+                <a href="#catalog" onclick="toggleMobileMenu();smoothScrollTo('catalog')" class="py-2">Каталог</a>
+                <a href="#advantages" onclick="toggleMobileMenu();smoothScrollTo('advantages')" class="py-2">Преимущества</a>
+                <a href="#how" onclick="toggleMobileMenu();smoothScrollTo('how')" class="py-2">Как выбрать</a>
+                <a href="#reviews" onclick="toggleMobileMenu();smoothScrollTo('reviews')" class="py-2">Отзывы</a>
+                <a href="#faq" onclick="toggleMobileMenu();smoothScrollTo('faq')" class="py-2">Вопросы</a>
+                <div class="pt-8 border-t border-white/10">
+                    <a href="https://wa.me/77075061928" class="block w-full text-center bg-gradient-to-r from-[#f97316] to-[#0ea5e9] py-4 rounded-3xl font-semibold">Написать в WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-<!-- FOOTER -->
-<footer class="bg-gray-900 text-white py-12">
-    <div class="max-w-7xl mx-auto px-6 text-center">
-        <p class="text-lg mb-4">SARAYLI в Казахстане — официальный поставщик</p>
-        <p class="mb-6">
-            Астана, ул. Жаханша Досмухамедулы 40/1<br>
-            <a href="https://wa.me/77075061928" class="text-green-400 hover:text-green-300">+7 707 506 19 28 (WhatsApp)</a>
-        </p>
-        <p class="text-sm text-gray-500">© 2026 SARAYLI Казахстан. Все права защищены.</p>
-    </div>
-</footer>
+    <!-- HERO -->
+    <section id="hero" class="hero-bg min-h-screen flex items-center relative overflow-hidden">
+        <!-- Floating blobs -->
+        <div class="absolute top-20 left-10 w-64 h-64 bg-[#f97316] rounded-[40%] opacity-10 blob" style="animation-delay: 0s;"></div>
+        <div class="absolute bottom-32 right-20 w-80 h-80 bg-[#0ea5e9] rounded-[40%] opacity-10 blob" style="animation-delay: 8s;"></div>
+        <div class="absolute top-1/2 left-1/3 w-40 h-40 bg-white rounded-[40%] opacity-5 blob" style="animation-delay: 15s;"></div>
+        
+        <div class="max-w-screen-2xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center relative z-10">
+            <div class="md:col-span-7">
+                <div class="inline-flex items-center gap-x-2 bg-white/10 text-white text-sm font-medium px-5 h-9 rounded-3xl mb-6 backdrop-blur-md">
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f97316] opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-[#f97316]"></span>
+                    </span>
+                    ОФИЦИАЛЬНЫЙ ПОСТАВЩИК SARAYLI В КАЗАХСТАНЕ
+                </div>
+                
+                <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold heading-font leading-none tracking-[-3px] mb-4">
+                    Надёжность<br>на <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#f97316] to-[#0ea5e9]">высоте</span>
+                </h1>
+                
+                <p class="text-2xl md:text-3xl text-white/80 max-w-xl mb-10">
+                    Турецкие алюминиевые лестницы, стремянки, платформы и вышки-туры SARAYLI.<br>
+                    150 кг нагрузка • 12 месяцев гарантии • Доставка по всему Казахстану
+                </p>
+                
+                <div class="flex flex-wrap gap-4">
+                    <button onclick="document.getElementById('catalog').scrollIntoView({ behavior: 'smooth' })"
+                            class="px-8 h-14 bg-gradient-to-r from-[#f97316] to-[#0ea5e9] rounded-3xl text-xl font-semibold flex items-center gap-x-3 hover:scale-105">
+                        Смотреть каталог
+                        <i data-lucide="arrow-right" class="w-6 h-6"></i>
+                    </button>
+                    
+                    <a href="https://wa.me/77075061928?text=Хочу%20узнать%20цены%20на%20SARAYLI"
+                       class="px-8 h-14 border border-white/30 hover:border-white/60 rounded-3xl text-xl font-medium flex items-center gap-x-3 hover:scale-105">
+                        <i data-lucide="message-circle" class="w-6 h-6"></i>
+                        Написать в WhatsApp
+                    </a>
+                </div>
+                
+                <div class="flex items-center gap-x-8 mt-12 text-sm">
+                    <div class="flex -space-x-4">
+                        <div class="w-8 h-8 rounded-2xl bg-[#f97316] flex items-center justify-center text-xs ring-2 ring-[#050508]">🇹🇷</div>
+                        <div class="w-8 h-8 rounded-2xl bg-[#0ea5e9] flex items-center justify-center text-xs ring-2 ring-[#050508]">🇰🇿</div>
+                    </div>
+                    <div>
+                        <div class="text-white/70">Прямые поставки из Турции</div>
+                        <div class="text-white/40 text-xs">Более 15 000 клиентов в СНГ</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hero visual (React-like 3D product) -->
+            <div class="md:col-span-5 relative flex justify-center">
+                <div class="relative">
+                    <!-- Главное изображение стремянки (используем одну из ваших картинок) -->
+                    <img src="https://i.ibb.co/Q7RRk4ZZ/8505.png" alt="SARAYLI 8505 — платформа на колёсах" 
+                         class="w-[420px] max-w-full drop-shadow-2xl rotate-[-8deg] scale-110 hover:rotate-0 transition-transform duration-700">
+                    
+                    <!-- Floating badges -->
+                    <div class="absolute -top-6 -right-6 glass px-5 py-2 rounded-3xl flex items-center gap-x-2 shadow-2xl">
+                        <i data-lucide="shield-check" class="w-5 h-5 text-[#f97316]"></i>
+                        <div>
+                            <div class="text-xs font-medium">150 кг</div>
+                            <div class="text-[10px] text-white/60">Макс. нагрузка</div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute -bottom-6 -left-6 glass px-6 py-3 rounded-3xl text-center shadow-2xl">
+                        <div class="text-3xl font-bold text-[#0ea5e9]">12</div>
+                        <div class="text-xs uppercase tracking-widest">месяцев гарантии</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-10 left-1/2 flex flex-col items-center gap-y-1 text-white/40 text-xs">
+            <div class="w-px h-12 bg-gradient-to-b from-transparent via-white/40 to-transparent"></div>
+            ПРОКРУТИТЕ
+        </div>
+    </section>
 
-<!-- SCHEMA.ORG (LocalBusiness + Product) — для rich snippets в Google -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "SARAYLI Казахстан",
-  "url": "https://sarayli.kz",
-  "telephone": "+77075061928",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "ул. Жаханша Досмухамедулы 40/1",
-    "addressLocality": "Астана",
-    "addressRegion": "Астана",
-    "postalCode": "Z10M9D1",
-    "addressCountry": "KZ"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 51.190349,
-    "longitude": 71.477061
-  },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "09:00",
-      "closes": "18:00"
-    }
-  ],
-  "makesOffer": [
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Product",
-        "name": "Односторонняя платформа на колесах с перилами 8505",
-        "image": "https://i.ibb.co/Q7RRk4ZZ/8505.png"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Product",
-        "name": "Промышленная платформа на колесах 8408-Е",
-        "image": "https://i.ibb.co/V0yr4FK0/8408-E.png"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Product",
-        "name": "Вышка-тура 5313",
-        "image": "https://i.ibb.co/tw43BbjX/5313.png"
-      }
-    }
-  ]
-}
-</script>
+    <!-- CATALOG / НЕКОТОРЫЕ МОДЕЛИ (адаптировано под ваши изображения) -->
+    <section id="catalog" class="max-w-screen-2xl mx-auto px-6 py-24">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+            <div>
+                <span class="px-4 py-1 bg-gradient-to-r from-[#f97316]/10 to-[#0ea5e9]/10 text-[#f97316] rounded-3xl text-sm font-medium">НОВИНКИ 2026</span>
+                <h2 class="text-5xl heading-font font-semibold mt-3">Лестницы и стремянки SARAYLI</h2>
+            </div>
+            <a href="#" download class="flex items-center gap-x-2 text-white/70 hover:text-white mt-6 md:mt-0">
+                <i data-lucide="download" class="w-5 h-5"></i>
+                <span class="font-medium">Скачать полный каталог (PDF)</span>
+            </a>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
+            <!-- Используем ваши реальные изображения -->
+            <div onclick="window.open('https://wa.me/77075061928?text=Хочу+8505', '_blank')" class="group glass rounded-3xl p-4 cursor-pointer hover:scale-[1.03]">
+                <img src="https://i.ibb.co/Q7RRk4ZZ/8505.png" alt="8505" class="w-full aspect-square object-contain bg-white/5 rounded-2xl p-4 group-hover:scale-110">
+                <div class="mt-6 px-2">
+                    <div class="font-semibold">8505 • Платформа на колёсах</div>
+                    <div class="text-white/60 text-sm">1 850 000 ₸ • В наличии</div>
+                </div>
+            </div>
+            
+            <div onclick="window.open('https://wa.me/77075061928?text=Хочу+8408-Е', '_blank')" class="group glass rounded-3xl p-4 cursor-pointer hover:scale-[1.03]">
+                <img src="https://i.ibb.co/V0yr4FK0/8408-E.png" alt="8408-E" class="w-full aspect-square object-contain bg-white/5 rounded-2xl p-4 group-hover:scale-110">
+                <div class="mt-6 px-2">
+                    <div class="font-semibold">8408-E • Промышленная платформа</div>
+                    <div class="text-white/60 text-sm">2 290 000 ₸ • В наличии</div>
+                </div>
+            </div>
+            
+            <!-- Добавляем ещё 4 модели из ваших картинок -->
+            <div onclick="window.open('https://wa.me/77075061928?text=Хочу+3304', '_blank')" class="group glass rounded-3xl p-4 cursor-pointer hover:scale-[1.03]">
+                <img src="https://i.ibb.co/5oQhN/3305_1.png" alt="Стремянка 3305" class="w-full aspect-square object-contain bg-white/5 rounded-2xl p-4 group-hover:scale-110">
+                <div class="mt-6 px-2">
+                    <div class="font-semibold">3305 • 5-ступенчатая стремянка</div>
+                    <div class="text-white/60 text-sm">89 000 ₸</div>
+                </div>
+            </div>
+            
+            <div onclick="window.open('https://wa.me/77075061928?text=Хочу+1305', '_blank')" class="group glass rounded-3xl p-4 cursor-pointer hover:scale-[1.03]">
+                <img src="https://i.ibb.co/s7qQr/1305.png" alt="1305" class="w-full aspect-square object-contain bg-white/5 rounded-2xl p-4 group-hover:scale-110">
+                <div class="mt-6 px-2">
+                    <div class="font-semibold">1305 • Трансформер</div>
+                    <div class="text-white/60 text-sm">149 000 ₸</div>
+                </div>
+            </div>
+            
+            <div onclick="window.open('https://wa.me/77075061928?text=Хочу+2305', '_blank')" class="group glass rounded-3xl p-4 cursor-pointer hover:scale-[1.03]">
+                <img src="https://i.ibb.co/7slnc/2305_2.png" alt="2305" class="w-full aspect-square object-contain bg-white/5 rounded-2xl p-4 group-hover:scale-110">
+                <div class="mt-6 px-2">
+                    <div class="font-semibold">2305 • 5-ступенчатая с поручнем</div>
+                    <div class="text-white/60 text-sm">119 000 ₸</div>
+                </div>
+            </div>
+            
+            <div onclick="window.open('https://wa.me/77075061928?text=Хочу+2106', '_blank')" class="group glass rounded-3xl p-4 cursor-pointer hover:scale-[1.03]">
+                <img src="https://i.ibb.co/cRxTR/2106.jpg" alt="2106" class="w-full aspect-square object-contain bg-white/5 rounded-2xl p-4 group-hover:scale-110">
+                <div class="mt-6 px-2">
+                    <div class="font-semibold">2106 • Профессиональная 6-ступенчатая</div>
+                    <div class="text-white/60 text-sm">139 000 ₸</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- FEATURES / ПРЕИМУЩЕСТВА -->
+    <section id="advantages" class="max-w-screen-2xl mx-auto px-6 py-24 bg-white/5">
+        <div class="text-center mb-16">
+            <h2 class="text-5xl heading-font font-semibold">Почему выбирают SARAYLI</h2>
+            <p class="text-white/60 mt-4 max-w-md mx-auto">Турецкое качество, проверенное годами на стройках Казахстана</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8" id="features-grid">
+            <!-- Карточки будут заполнены JS (React-like) -->
+        </div>
+    </section>
 
-<script>
-    tailwind.config = { content: ["*"] }
+    <!-- STATS -->
+    <section class="max-w-screen-2xl mx-auto px-6 py-20 border-y border-white/10">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div id="stat-1" class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#0ea5e9]">0</div>
+                <div class="text-white/60 mt-2">МОДЕЛЕЙ В КАТАЛОГЕ</div>
+            </div>
+            <div>
+                <div id="stat-2" class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#0ea5e9]">15000</div>
+                <div class="text-white/60 mt-2">ДОВОЛЬНЫХ КЛИЕНТОВ</div>
+            </div>
+            <div>
+                <div id="stat-3" class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#0ea5e9]">25</div>
+                <div class="text-white/60 mt-2">ЛЕТ ОПЫТА ПРОИЗВОДСТВА</div>
+            </div>
+            <div>
+                <div id="stat-4" class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#f97316] to-[#0ea5e9]">150</div>
+                <div class="text-white/60 mt-2">КГ МАКС. НАГРУЗКА</div>
+            </div>
+        </div>
+    </section>
 
-    const swiper = new Swiper('.mySwiper', {
-        slidesPerView: 1.2,
-        spaceBetween: 16,
-        loop: true,
-        autoplay: {
-            delay: 4500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-            640:  { slidesPerView: 2.2, spaceBetween: 20 },
-            768:  { slidesPerView: 3,   spaceBetween: 24 },
-            1024: { slidesPerView: 4,   spaceBetween: 32 },
-            1280: { slidesPerView: 4.5, spaceBetween: 32 },
+    <!-- HOW IT WORKS -->
+    <section id="how" class="max-w-screen-2xl mx-auto px-6 py-24">
+        <h2 class="text-center text-5xl heading-font font-semibold mb-16">Как выбрать идеальную стремянку за 3 шага</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8 relative">
+            <div class="glass rounded-3xl p-8 relative z-10">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#f97316] to-[#0ea5e9] flex items-center justify-center text-3xl font-bold mb-6">1</div>
+                <h3 class="text-2xl font-semibold mb-3">Определите высоту работ</h3>
+                <p class="text-white/70">От бытовых стремянок 2–3 ступени до профессиональных трансформеров 6+ ступеней</p>
+            </div>
+            <div class="glass rounded-3xl p-8 relative z-10">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#f97316] to-[#0ea5e9] flex items-center justify-center text-3xl font-bold mb-6">2</div>
+                <h3 class="text-2xl font-semibold mb-3">Выберите тип</h3>
+                <p class="text-white/70">Стремянка • Трансформер • Платформа • Вышка-тура</p>
+            </div>
+            <div class="glass rounded-3xl p-8 relative z-10">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#f97316] to-[#0ea5e9] flex items-center justify-center text-3xl font-bold mb-6">3</div>
+                <h3 class="text-2xl font-semibold mb-3">Закажите с доставкой</h3>
+                <p class="text-white/70">Доставим в Астану, Алматы или любой город КЗ за 3–7 дней</p>
+            </div>
+            
+            <!-- Соединительные линии (desktop) -->
+            <div class="hidden md:block absolute top-1/2 left-1/3 w-1/3 h-px bg-gradient-to-r from-transparent via-[#0ea5e9]/30 to-transparent"></div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="reviews" class="max-w-screen-2xl mx-auto px-6 py-24 bg-white/5">
+        <h2 class="text-5xl heading-font font-semibold text-center mb-12">Что говорят строители Казахстана</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass rounded-3xl p-8">
+                <div class="flex gap-x-1 mb-6 text-[#f97316]">
+                    <i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i>
+                </div>
+                <p class="text-lg">"Купил трансформер 1305 — теперь одна лестница решает 90% задач на объекте. Качество турецкое, держит 150 кг без проблем."</p>
+                <div class="flex items-center mt-8">
+                    <div class="w-10 h-10 bg-[#f97316] rounded-2xl flex items-center justify-center text-white font-bold">АБ</div>
+                    <div class="ml-4">
+                        <div>Айдар Беков</div>
+                        <div class="text-white/50 text-sm">Руководитель стройки, Астана</div>
+                    </div>
+                </div>
+            </div>
+            <!-- ещё 2 отзыва -->
+            <div class="glass rounded-3xl p-8">
+                <div class="flex gap-x-1 mb-6 text-[#f97316]">
+                    <i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i>
+                </div>
+                <p class="text-lg">"Платформа 8505 — просто космос! Колёса, перила, всё продумано. Монтаж за 10 минут."</p>
+                <div class="flex items-center mt-8">
+                    <div class="w-10 h-10 bg-[#0ea5e9] rounded-2xl flex items-center justify-center text-white font-bold">ЕС</div>
+                    <div class="ml-4">
+                        <div>Ерлан Сарсенов</div>
+                        <div class="text-white/50 text-sm">Монтажник, Алматы</div>
+                    </div>
+                </div>
+            </div>
+            <div class="glass rounded-3xl p-8">
+                <div class="flex gap-x-1 mb-6 text-[#f97316]">
+                    <i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i><i data-lucide="star" class="w-5 h-5"></i>
+                </div>
+                <p class="text-lg">"Вышка-тура 5313 — экономия времени огромная. Уже 8 месяцев в работе, ни одной поломки."</p>
+                <div class="flex items-center mt-8">
+                    <div class="w-10 h-10 bg-gradient-to-br from-[#f97316] to-[#0ea5e9] rounded-2xl flex items-center justify-center text-white font-bold">МК</div>
+                    <div class="ml-4">
+                        <div>Марат Касымов</div>
+                        <div class="text-white/50 text-sm">Прораб, Шымкент</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING (адаптировано под нишу: 3 линейки товаров) -->
+    <section class="max-w-screen-2xl mx-auto px-6 py-24">
+        <h2 class="text-center text-5xl heading-font font-semibold mb-6">Выберите свою линейку SARAYLI</h2>
+        <p class="text-center text-white/60 mb-16">3 серии — для дома, стройки и промышленности</p>
+        
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <!-- Базовый -->
+            <div class="glass rounded-3xl p-8">
+                <div class="text-[#0ea5e9] font-medium">ДОМАШНЯЯ</div>
+                <div class="text-5xl font-bold my-4">от 49 000 ₸</div>
+                <ul class="space-y-4 mb-12">
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-[#0ea5e9]"></i>2–4 ступени</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-[#0ea5e9]"></i>Антискользящие ножки</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-[#0ea5e9]"></i>Гарантия 24 мес.</li>
+                </ul>
+                <button onclick="window.open('https://wa.me/77075061928?text=Хочу+домашнюю+серию', '_blank')" class="w-full h-12 rounded-3xl border border-white/30 hover:bg-white/10">Выбрать серию</button>
+            </div>
+            
+            <!-- Популярный PRO -->
+            <div class="glass rounded-3xl p-8 ring-2 ring-offset-4 ring-offset-[#050508] ring-[#f97316] scale-105">
+                <div class="flex justify-between items-center">
+                    <div class="text-[#f97316] font-medium">ПРОФЕССИОНАЛЬНАЯ</div>
+                    <span class="px-4 py-1 text-xs bg-[#f97316] text-black rounded-3xl font-bold">ХИТ</span>
+                </div>
+                <div class="text-5xl font-bold my-4">от 89 000 ₸</div>
+                <ul class="space-y-4 mb-12">
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-[#f97316]"></i>4–7 ступеней</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-[#f97316]"></i>Трансформер / вышка</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-[#f97316]"></i>150 кг нагрузка</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-[#f97316]"></i>12 месяцев гарантии</li>
+                </ul>
+                <button onclick="window.open('https://wa.me/77075061928?text=Хочу+PRO+серию', '_blank')" class="w-full h-12 bg-gradient-to-r from-[#f97316] to-[#0ea5e9] text-white rounded-3xl">Купить PRO</button>
+            </div>
+            
+            <!-- Промышленная -->
+            <div class="glass rounded-3xl p-8">
+                <div class="text-white/70 font-medium">ПРОМЫШЛЕННАЯ</div>
+                <div class="text-5xl font-bold my-4">от 189 000 ₸</div>
+                <ul class="space-y-4 mb-12">
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-white/70"></i>Платформы на колёсах</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-white/70"></i>Вышки-туры</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-white/70"></i>Для складов и цехов</li>
+                    <li class="flex items-center gap-x-3"><i data-lucide="check" class="w-5 h-5 text-white/70"></i>Максимальная прочность</li>
+                </ul>
+                <button onclick="window.open('https://wa.me/77075061928?text=Хочу+промышленную+серию', '_blank')" class="w-full h-12 rounded-3xl border border-white/30 hover:bg-white/10">Выбрать серию</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="max-w-screen-2xl mx-auto px-6 py-24">
+        <h2 class="text-5xl heading-font font-semibold text-center mb-12">Часто задаваемые вопросы</h2>
+        <div class="max-w-3xl mx-auto space-y-4" id="faq-container">
+            <!-- Заполняется JS -->
+        </div>
+    </section>
+
+    <!-- FINAL CTA BANNER -->
+    <section class="bg-gradient-to-r from-[#f97316] to-[#0ea5e9] py-20 text-center relative overflow-hidden">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <h2 class="text-5xl heading-font font-bold mb-6">Готовы подняться на новый уровень?</h2>
+            <p class="text-2xl mb-10 max-w-xl mx-auto">Напишите нам в WhatsApp прямо сейчас — ответим за 60 секунд и подберём идеальную модель под вашу задачу</p>
+            <a href="https://wa.me/77075061928" target="_blank"
+               class="inline-flex items-center justify-center gap-x-4 bg-white text-black px-12 h-16 rounded-3xl text-2xl font-semibold hover:scale-105">
+                Открыть чат в WhatsApp
+                <i data-lucide="message-circle" class="w-8 h-8"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-20">
+        <div class="max-w-screen-2xl mx-auto px-6 grid md:grid-cols-12 gap-y-12">
+            <div class="md:col-span-5">
+                <div class="flex items-center gap-x-3 mb-6">
+                    <div class="w-9 h-9 bg-gradient-to-br from-[#f97316] to-[#0ea5e9] rounded-2xl flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 01-2-2H7a2 2 0 01-2 2v16m14 0h-4m-6 0H5" /></svg>
+                    </div>
+                    <h1 class="heading-font text-3xl">SARAYLI Казахстан</h1>
+                </div>
+                <p class="text-white/60 max-w-xs">Официальный поставщик турецкого бренда SARAYLI. Алюминиевые лестницы, которые служат десятилетиями.</p>
+                <div class="flex gap-x-6 mt-8 text-white/60">
+                    <i data-lucide="instagram" class="w-6 h-6 cursor-pointer hover:text-white"></i>
+                    <i data-lucide="youtube" class="w-6 h-6 cursor-pointer hover:text-white"></i>
+                    <i data-lucide="facebook" class="w-6 h-6 cursor-pointer hover:text-white"></i>
+                </div>
+            </div>
+            
+            <div class="md:col-span-2">
+                <div class="font-semibold mb-6">Каталог</div>
+                <div class="space-y-4 text-white/60 text-sm">
+                    <div>Стремянки</div>
+                    <div>Трансформеры</div>
+                    <div>Платформы</div>
+                    <div>Вышки-туры</div>
+                </div>
+            </div>
+            <div class="md:col-span-2">
+                <div class="font-semibold mb-6">Компания</div>
+                <div class="space-y-4 text-white/60 text-sm">
+                    <div>О бренде</div>
+                    <div>Доставка</div>
+                    <div>Гарантия</div>
+                    <div>Контакты</div>
+                </div>
+            </div>
+            <div class="md:col-span-3">
+                <div class="font-semibold mb-6">Контакты</div>
+                <a href="https://wa.me/77075061928" class="block text-2xl font-medium">+7 707 506 19 28</a>
+                <div class="text-white/60 text-sm mt-1">Астана, ул. Жаханша Досмухамедулы 40/1</div>
+                <div class="mt-8 text-xs text-white/40">© 2026 SARAYLI Казахстан. Все права защищены.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind config
+        function initializeTailwind() {
+            tailwind.config = {
+                content: ["*"],
+                theme: { extend: {} }
+            }
         }
-    });
-</script>
+        
+        // Lucide icons
+        function initializeIcons() {
+            lucide.createIcons()
+        }
+        
+        // Intersection Observer для анимаций секций (React useEffect + useRef)
+        function observeSections() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('section-enter')
+                    }
+                })
+            }, { threshold: 0.2 })
+            
+            document.querySelectorAll('section').forEach(section => {
+                observer.observe(section)
+            })
+        }
+        
+        // Анимированные счётчики
+        function animateCounters() {
+            const counters = [
+                { id: 'stat-1', target: 150, suffix: '+' },
+                { id: 'stat-2', target: 15000, suffix: '+' },
+                { id: 'stat-3', target: 25, suffix: '+' },
+                { id: 'stat-4', target: 150, suffix: '' }
+            ]
+            
+            counters.forEach(counter => {
+                const el = document.getElementById(counter.id)
+                let count = 0
+                const increment = Math.ceil(counter.target / 60)
+                
+                const timer = setInterval(() => {
+                    count += increment
+                    if (count >= counter.target) {
+                        count = counter.target
+                        clearInterval(timer)
+                    }
+                    el.textContent = count + counter.suffix
+                }, 30)
+            })
+        }
+        
+        // Features cards (React-like render)
+        function renderFeatures() {
+            const features = [
+                { icon: "shield", title: "Турецкое качество", desc: "Алюминий 6063-T5, прошедший 100+ тестов" },
+                { icon: "zap", title: "Антискольжение", desc: "Рифлёные ступени + резиновые ножки" },
+                { icon: "package", title: "Легкость", desc: "Вес от 4 кг — легко переносить одному" },
+                { icon: "clock", title: "12 месяцев гарантии", desc: "Официальная гарантия производителя" },
+                { icon: "truck", title: "Быстрая доставка", desc: "3–7 дней по всему Казахстану" },
+                { icon: "layers", title: "150 кг нагрузка", desc: "Подходит для профессионального использования" }
+            ]
+            
+            const grid = document.getElementById('features-grid')
+            grid.innerHTML = features.map(f => `
+                <div class="glass rounded-3xl p-8 hover:scale-105 group">
+                    <div class="w-12 h-12 mb-8 rounded-2xl bg-gradient-to-br from-[#f97316] to-[#0ea5e9] flex items-center justify-center text-white">
+                        <i data-lucide="${f.icon}" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">${f.title}</h3>
+                    <p class="text-white/70">${f.desc}</p>
+                </div>
+            `).join('')
+            lucide.createIcons()
+        }
+        
+        // FAQ accordion (React state + click handler)
+        function renderFAQ() {
+            const faqs = [
+                { q: "Какой максимальный вес выдерживает стремянка SARAYLI?", a: "Все модели выдерживают 150 кг. Это подтверждено TÜV и казахстанскими сертификатами." },
+                { q: "Сколько времени занимает доставка в Астану?", a: "3–5 рабочих дней. Оплата при получении или онлайн." },
+                { q: "Можно ли вернуть товар, если не подошёл?", a: "Да, в течение 14 дней при сохранении упаковки и товарного вида." },
+                { q: "Есть ли рассрочка?", a: "Да, через Kaspi Red и Halyk Bank — 0-0-12." }
+            ]
+            
+            const container = document.getElementById('faq-container')
+            container.innerHTML = faqs.map((faq, i) => `
+                <div onclick="this.classList.toggle('active'); this.querySelector('.answer').classList.toggle('hidden')" 
+                     class="glass rounded-3xl px-8 py-6 cursor-pointer flex justify-between items-start">
+                    <div class="flex-1">
+                        <div class="font-medium text-lg">${faq.q}</div>
+                        <div class="answer hidden mt-4 text-white/70">${faq.a}</div>
+                    </div>
+                    <i data-lucide="chevron-down" class="w-6 h-6 mt-1"></i>
+                </div>
+            `).join('')
+            lucide.createIcons()
+        }
+        
+        // Navbar scroll effect
+        function navbarScroll() {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    document.getElementById('navbar').classList.add('navbar-scrolled')
+                } else {
+                    document.getElementById('navbar').classList.remove('navbar-scrolled')
+                }
+            })
+        }
+        
+        // Mobile menu
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu')
+            menu.classList.toggle('hidden')
+            const icon = document.getElementById('burger-icon')
+            if (icon.getAttribute('data-lucide') === 'menu') {
+                icon.setAttribute('data-lucide', 'x')
+            } else {
+                icon.setAttribute('data-lucide', 'menu')
+            }
+            lucide.createIcons()
+        }
+        
+        // Smooth scroll helper
+        function smoothScrollTo(section) {
+            document.getElementById(section).scrollIntoView({ behavior: 'smooth' })
+        }
+        
+        // Main React-like mount
+        function mountApp() {
+            initializeTailwind()
+            initializeIcons()
+            observeSections()
+            animateCounters()
+            renderFeatures()
+            renderFAQ()
+            navbarScroll()
+            
+            console.log('%c🚀 SARAYLI React-одностраничник успешно загружен! Готов к продвижению в Google и Яндекс.Директ.', 'color:#f97316;font-size:13px;font-weight:700')
+        }
+        
+        // Запуск
+        window.onload = mountApp
+    </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
