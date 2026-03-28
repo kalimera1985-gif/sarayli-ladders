@@ -1,2 +1,2 @@
-# sarayli-semiproducts
-Сайт-визитка цеха полуфабрикатов Sarayli.kz
+# sarayli-ladders
+Сайт-визитка Sarayli.kz
