@@ -242,16 +242,35 @@
 
     <!-- CATALOG / НЕКОТОРЫЕ МОДЕЛИ (адаптировано под ваши изображения) -->
     <section id="catalog" class="max-w-screen-2xl mx-auto px-6 py-24">
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
-            <div>
-                <span class="px-4 py-1 bg-gradient-to-r from-[#f97316]/10 to-[#0ea5e9]/10 text-[#f97316] rounded-3xl text-sm font-medium">НОВИНКИ 2026</span>
-                <h2 class="text-5xl heading-font font-semibold mt-3">Лестницы и стремянки SARAYLI</h2>
-            </div>
-            <a href="#" download class="flex items-center gap-x-2 text-white/70 hover:text-white mt-6 md:mt-0">
-                <i data-lucide="download" class="w-5 h-5"></i>
-                <span class="font-medium">Скачать полный каталог (PDF)</span>
-            </a>
+        <!-- КНОПКА СКАЧИВАНИЯ КАТАЛОГА — ВСТАВЬ СЮДА -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+    <div>
+        <span class="px-4 py-1 bg-gradient-to-r from-[#f97316]/10 to-[#0ea5e9]/10 text-[#f97316] rounded-3xl text-sm font-medium">НОВИНКИ 2026</span>
+        <h2 class="text-5xl heading-font font-semibold mt-3">Лестницы и стремянки SARAYLI</h2>
+    </div>
+
+    <!-- === КРАСИВАЯ КНОПКА СКАЧИВАНИЯ КАТАЛОГА === -->
+    <a href="https://kalimera1985-gif.github.io/sarayli-ladders/Каталог 2023.pdf" 
+       download="Каталог SARAYLI 2023.pdf"
+       target="_blank"
+       class="group mt-6 md:mt-0 flex items-center gap-5 bg-white/10 hover:bg-white/20 border border-white/30 hover:border-white/60 px-8 py-6 rounded-3xl transition-all hover:scale-[1.03]">
+        
+        <div class="w-14 h-14 flex-shrink-0 bg-gradient-to-br from-[#f97316] to-[#0ea5e9] rounded-2xl flex items-center justify-center">
+            <i data-lucide="file-text" class="w-7 h-7 text-white"></i>
         </div>
+        
+        <div class="flex-1">
+            <div class="font-semibold text-xl group-hover:text-orange-400 transition-colors">
+                Скачать полный каталог
+            </div>
+            <div class="text-white/60 text-sm">
+                PDF • 2023–2026 • все модели и цены
+            </div>
+        </div>
+        
+        <i data-lucide="download" class="w-7 h-7 text-white/70 group-hover:text-white transition-colors"></i>
+    </a>
+</div>
         
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
             <!-- Используем ваши реальные изображения -->
