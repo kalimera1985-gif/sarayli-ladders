@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SARAYLI Казахстан — премиум алюминиевые лестницы, стремянки, платформы и вышки-туры из Турции. Надёжность, безопасность, доставка по Астане, Алматы и всему КЗ. Официальный поставщик.">
+  <meta name="description" content="SARAYLI Казахстан — официальный дистрибьютор турецких алюминиевых лестниц, стремянок, платформ и вышек-тур. Доставка по Астане, Алматы, всему КЗ. Гарантия 12 мес.">
   <meta name="keywords" content="SARAYLI, стремянка SARAYLI, лестница SARAYLI, платформа SARAYLI, вышка-тура SARAYLI, алюминиевые лестницы Казахстан, трансформер SARAYLI, купить стремянку Астана, купить лестницу Алматы, стремянка цена Казахстан">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://sarayli.kz">
+  <link rel="canonical" href="https://sarayli.kz/">
   <title>SARAYLI Казахстан | Лестницы и стремянки — Надёжность на высоте</title>
 
   <!-- FIX: исправлен домен og:image (был ibb.co.com — не существует) -->
   <meta property="og:title" content="SARAYLI Казахстан | Лестницы, стремянки, платформы — купить">
   <meta property="og:description" content="Премиум турецкие лестницы SARAYLI. 150+ кг нагрузка, 12 месяцев гарантии. Доставка по всему Казахстану.">
   <meta property="og:image" content="https://sarayli.kz/imagehero.png">
-  <meta property="og:url" content="https://sarayli.kz">
+  <meta property="og:url" content="https://sarayli.kz/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ru_KZ">
 
@@ -50,25 +50,63 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Schema.org JSON-LD: Organization + LocalBusiness -->
+  <!-- Schema.org JSON-LD: Organization + LocalBusiness + Brand -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "SARAYLI Казахстан",
-    "description": "Официальный поставщик турецких алюминиевых лестниц, стремянок, платформ и вышек-тур SARAYLI в Казахстане.",
-    "url": "https://sarayli.kz",
-    "telephone": "+77075061928",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "ул. Жаханша Досмухамедулы 40/1",
-      "addressLocality": "Астана",
-      "addressCountry": "KZ"
-    },
-    "areaServed": "KZ",
-    "image": "https://sarayli.kz/imagehero.png",
-    "priceRange": "₸₸",
-    "openingHours": "Mo-Sa 09:00-19:00"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://sarayli.kz/#organization",
+        "name": "SARAYLI Казахстан",
+        "alternateName": ["SARAYLI Kazakhstan", "Сарайлы Казахстан"],
+        "url": "https://sarayli.kz/",
+        "logo": "https://sarayli.kz/logosaraylipng.png",
+        "image": "https://sarayli.kz/imagehero.png",
+        "description": "Официальный дистрибьютор турецкого производителя SARAYLI в Казахстане. Алюминиевые лестницы, стремянки, платформы и вышки-туры с прямой поставкой от завода.",
+        "telephone": "+77075061928",
+        "email": "info@sarayli.kz",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ул. Жаханша Досмухамедулы 40/1",
+          "addressLocality": "Астана",
+          "addressRegion": "Акмолинская область",
+          "postalCode": "010000",
+          "addressCountry": "KZ"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Kazakhstan"
+        },
+        "sameAs": [
+          "https://www.sarayli.com.tr/"
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "SARAYLI",
+          "logo": "https://sarayli.kz/logosaraylipng.png",
+          "description": "Турецкий бренд алюминиевых лестниц и стремянок профессионального уровня."
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://sarayli.kz/#localbusiness",
+        "name": "SARAYLI Казахстан — официальный дистрибьютор",
+        "parentOrganization": { "@id": "https://sarayli.kz/#organization" },
+        "url": "https://sarayli.kz/",
+        "telephone": "+77075061928",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ул. Жаханша Досмухамедулы 40/1",
+          "addressLocality": "Астана",
+          "addressCountry": "KZ"
+        },
+        "areaServed": "KZ",
+        "image": "https://sarayli.kz/imagehero.png",
+        "priceRange": "₸₸",
+        "openingHours": "Mo-Sa 09:00-19:00"
+      }
+    ]
   }
   </script>
 
@@ -393,7 +431,7 @@
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f97316] opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#f97316]"></span>
           </span>
-          ОФИЦИАЛЬНЫЙ ПОСТАВЩИК SARAYLI В КЗ
+          ОФИЦИАЛЬНЫЙ ДИСТРИБЬЮТОР ТУРЕЦКОГО SARAYLI В КАЗАХСТАНЕ
         </div>
 
         <!-- FIX: единственный h1 на странице, адаптивный размер -->
@@ -430,8 +468,8 @@
             <div class="w-8 h-8 rounded-xl bg-[#0ea5e9] flex items-center justify-center text-xs ring-2 ring-[#050508]">🇰🇿</div>
           </div>
           <div>
-            <div class="text-white/65 text-sm">Прямые поставки из Турции, России, Узбекистана</div>
-            <div class="text-white/35 text-xs">Более 15 000 клиентов в СНГ</div>
+            <div class="text-white/65 text-sm">Прямые поставки с завода в Турции — без посредников</div>
+            <div class="text-white/35 text-xs">Гарантия от производителя · Доставка по всему Казахстану</div>
           </div>
         </div>
       </div>
