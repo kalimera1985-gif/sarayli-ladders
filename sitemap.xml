@@ -1,60 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Главная страница -->
-  <url>
-    <loc>https://sarayli.kz/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Категория: Стремянки -->
-  <url>
-    <loc>https://sarayli.kz/stremyanki/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Категория: Приставные лестницы -->
-  <url>
-    <loc>https://sarayli.kz/lestnitsy-pristavnye/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Категория: Трансформеры -->
-  <url>
-    <loc>https://sarayli.kz/transformery/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Категория: Платформы -->
-  <url>
-    <loc>https://sarayli.kz/platformy/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Категория: Вышки-туры и манлифты -->
-  <url>
-    <loc>https://sarayli.kz/vyshki-tury/</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Блог: как выбрать стремянку -->
-  <url>
-    <loc>https://sarayli.kz/blog/kak-vybrat-stremyanku-astana.html</loc>
-    <lastmod>2026-05-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
+  <url><loc>https://sarayli.kz/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sarayli.kz/stremyanki/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sarayli.kz/lestnitsy-pristavnye/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sarayli.kz/transformery/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sarayli.kz/platformy/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sarayli.kz/vyshki-tury/</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sarayli.kz/o-kompanii/</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sarayli.kz/korzina/</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://sarayli.kz/zayavka/</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sarayli.kz/blog/kak-vybrat-stremyanku-astana.html</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sarayli.kz/product/jackson-3/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/jackson-4/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/jackson-5/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/jackson-6/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/jackson-7/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/europa-4/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/europa-5/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/europa-6/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/alyuminievaya-4/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/alyuminievaya-5/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/alyuminievaya-6/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/alyuminievaya-7/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/alyuminievaya-8/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/color-3x3/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/color-4x4/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/color-5x5/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/industrial-3x9/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/industrial-3x10/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/industrial-3x12/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/industrial-3x13/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/industrial-3x14/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/transformer-4x3/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/transformer-4x4/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/transformer-4x5/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/transformer-4x6/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/platforma-4-1/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/platforma-5-1/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sarayli.kz/product/platforma-6-1/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
