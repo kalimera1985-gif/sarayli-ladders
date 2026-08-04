@@ -66,4 +66,7 @@ Disallow: /CNAME
 Disallow: /.github/
 Disallow: /README.md
 
+Disallow: /Каталог-SARAYLI-2026.pdf
+Disallow: /Каталог%202023.pdf
+
 Sitemap: https://sarayli.kz/sitemap.xml
