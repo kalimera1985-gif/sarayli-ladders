@@ -40,61 +40,77 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700;6..12,800&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
-    :root { --accent: #f97316; --accent-b: #0ea5e9; }
-    body { font-family: 'Inter', sans-serif; background: #050508; color: #e5e7eb; }
+    :root { --accent: #f5901f; --accent-b: #0ea5e9; }
+    body { font-family:'Nunito Sans',sans-serif; background: #f4f7f9; color: #e5e7eb; }
     .heading-font { font-family: 'Syne', sans-serif; }
-    h2 { font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 700; color: #fff; margin: 2.5rem 0 1rem; }
-    h3 { font-family: 'Inter', sans-serif; font-size: 1.15rem; font-weight: 600; color: #f97316; margin: 1.5rem 0 0.6rem; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 700; color: #1055a5; margin: 2.5rem 0 1rem; }
+    h3 { font-family:'Nunito Sans',sans-serif; font-size: 1.15rem; font-weight: 600; color: #f5901f; margin: 1.5rem 0 0.6rem; }
     p  { line-height: 1.85; color: #d1d5db; margin-bottom: 1rem; }
     ul { list-style: none; padding: 0; margin-bottom: 1rem; }
     ul li { padding: 0.35rem 0 0.35rem 1.6rem; position: relative; color: #d1d5db; line-height: 1.7; }
-    ul li::before { content: "→"; position: absolute; left: 0; color: #f97316; font-weight: 700; }
-    .tip { background: rgba(249,115,22,0.1); border-left: 3px solid #f97316; padding: 1rem 1.2rem; border-radius: 0 0.5rem 0.5rem 0; margin: 1.5rem 0; }
-    .tip strong { color: #f97316; }
+    ul li::before { content: "→"; position: absolute; left: 0; color: #f5901f; font-weight: 700; }
+    .tip { background: rgba(249,115,22,0.1); border-left: 3px solid #f5901f; padding: 1rem 1.2rem; border-radius: 0 0.5rem 0.5rem 0; margin: 1.5rem 0; }
+    .tip strong { color: #f5901f; }
     table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
-    th { background: rgba(249,115,22,0.15); color: #f97316; font-weight: 600; padding: 0.7rem 1rem; text-align: left; font-size: 0.85rem; }
+    th { background: rgba(249,115,22,0.15); color: #f5901f; font-weight: 600; padding: 0.7rem 1rem; text-align: left; font-size: 0.85rem; }
     td { padding: 0.65rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.07); font-size: 0.92rem; }
     tr:hover td { background: rgba(255,255,255,0.03); }
     a { color: #0ea5e9; text-decoration: none; }
-    a:hover { color: #f97316; }
+    a:hover { color: #f5901f; }
   </style>
+<link rel="stylesheet" href="/assets/theme.css">
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2BD4GQR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- NAVBAR -->
-<nav class="sticky top-0 z-50 bg-[#050508]/90 backdrop-blur-lg border-b border-white/10">
-  <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
-    <a href="https://sarayli.kz/" class="flex items-center gap-2" aria-label="SARAYLI Казахстан — на главную">
-      <div class="w-8 h-8 bg-gradient-to-br from-[#f97316] to-[#0ea5e9] rounded-lg flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h-4m-6 0H5"/></svg>
-      </div>
-      <span class="heading-font font-bold text-white text-lg">SARAYLI</span>
-    </a>
-    <a href="https://sarayli.kz/#catalog"
-       class="bg-gradient-to-r from-[#f97316] to-[#0ea5e9] text-white px-5 py-2 rounded-full text-sm font-semibold">
-      Смотреть каталог →
-    </a>
-  </div>
+<div class="topbar"><div class="topbar-in">
+<a href="/o-kompanii/">О компании</a><span class="sep"></span>
+<a href="/zayavka/" class="hot">Оптовикам и дилерам</a><span class="sep"></span>
+<a href="https://wa.me/77075061928">WhatsApp</a><span class="sep"></span>
+<a href="tel:+77075061928">+7 707 506 19 28</a>
+</div></div>
+<nav class="nav">
+<div class="nav-inner">
+<a href="/" class="logo" aria-label="SARAYLI Казахстан — на главную">
+  <img src="/logosaraylipng.png" alt="SARAYLI" width="192" height="44">
+  <div class="logo-tag">tam düşündüğünüz gibi · точно так, как вы думали</div>
+</a>
+<div class="nav-links">
+  <a href="/catalog/">Каталог</a>
+  <a href="/stremyanki/">Стремянки</a>
+  <a href="/lestnitsy-pristavnye/">Лестницы</a>
+  <a href="/transformery/">Трансформеры</a>
+  <a href="/platformy/">Платформы</a>
+  <a href="/vyshki-tury/">Вышки-туры</a>
+</div>
+<div class="nav-cta">
+  <a href="tel:+77075061928" class="nav-phone">+7 707 506 19 28</a>
+  <a href="/korzina/" class="cart-btn">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg>
+    Заявка<span class="cart-badge" data-cart-badge>0</span>
+  </a>
+</div>
+</div>
 </nav>
 
 <!-- HERO статьи -->
 <header class="max-w-4xl mx-auto px-4 pt-14 pb-10">
-  <div class="inline-flex items-center gap-2 bg-white/8 text-[#f97316] text-xs font-medium px-3 py-1 rounded-full mb-5">
+  <div class="inline-flex items-center gap-2 bg-white/8 text-[#f5901f] text-xs font-medium px-3 py-1 rounded-full mb-5">
     🪜 Руководство по выбору · 2026
   </div>
-  <h1 class="heading-font text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight mb-5">
+  <h1 class="heading-font text-3xl sm:text-4xl md:text-5xl font-bold text-[#1055a5] leading-tight mb-5">
     Как выбрать стремянку<br>
-    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#f97316] to-[#0ea5e9]">в Астане в 2026 году</span>
+    <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#f5901f] to-[#0ea5e9]">в Астане в 2026 году</span>
   </h1>
-  <p class="text-lg text-white/65 max-w-2xl leading-relaxed">
+  <p class="text-lg text-[#1055a5]/65 max-w-2xl leading-relaxed">
     Полное руководство от официального поставщика SARAYLI в Казахстане. Разбираем типы, материалы, нагрузку и главные ошибки при покупке — чтобы вы выбрали стремянку один раз и на годы вперёд.
   </p>
-  <div class="flex items-center gap-4 mt-6 text-sm text-white/40">
+  <div class="flex items-center gap-4 mt-6 text-sm text-[#93a3b3]">
     <span>📅 5 мая 2026</span>
     <span>·</span>
     <span>⏱ 7 мин чтения</span>
@@ -105,16 +121,16 @@
 
 <!-- СОДЕРЖАНИЕ -->
 <div class="max-w-4xl mx-auto px-4 mb-10">
-  <div class="bg-white/5 border border-white/10 rounded-2xl p-6">
-    <p class="text-[#f97316] font-semibold text-sm mb-3 uppercase tracking-wide">Содержание</p>
-    <ol class="space-y-2 text-sm text-white/70">
-      <li><a href="#types" class="hover:text-[#f97316]">1. Типы стремянок — какая подходит для вашей задачи</a></li>
-      <li><a href="#material" class="hover:text-[#f97316]">2. Алюминий или сталь — что выбрать?</a></li>
-      <li><a href="#height" class="hover:text-[#f97316]">3. Как выбрать правильную высоту</a></li>
-      <li><a href="#load" class="hover:text-[#f97316]">4. Грузоподъёмность — почему это критично</a></li>
-      <li><a href="#safety" class="hover:text-[#f97316]">5. Признаки качественной и безопасной стремянки</a></li>
-      <li><a href="#who" class="hover:text-[#f97316]">6. Какая стремянка нужна именно вам</a></li>
-      <li><a href="#catalog" class="hover:text-[#f97316]">7. Популярные модели SARAYLI в Астане</a></li>
+  <div class="bg-white border border-[#e8ebee] rounded-2xl p-6">
+    <p class="text-[#f5901f] font-semibold text-sm mb-3 uppercase tracking-wide">Содержание</p>
+    <ol class="space-y-2 text-sm text-[#8493a1]">
+      <li><a href="#types" class="hover:text-[#f5901f]">1. Типы стремянок — какая подходит для вашей задачи</a></li>
+      <li><a href="#material" class="hover:text-[#f5901f]">2. Алюминий или сталь — что выбрать?</a></li>
+      <li><a href="#height" class="hover:text-[#f5901f]">3. Как выбрать правильную высоту</a></li>
+      <li><a href="#load" class="hover:text-[#f5901f]">4. Грузоподъёмность — почему это критично</a></li>
+      <li><a href="#safety" class="hover:text-[#f5901f]">5. Признаки качественной и безопасной стремянки</a></li>
+      <li><a href="#who" class="hover:text-[#f5901f]">6. Какая стремянка нужна именно вам</a></li>
+      <li><a href="#catalog" class="hover:text-[#f5901f]">7. Популярные модели SARAYLI в Астане</a></li>
     </ol>
   </div>
 </div>
@@ -245,13 +261,13 @@
   </section>
 
   <!-- CTA -->
-  <div class="mt-14 bg-gradient-to-br from-[#f97316]/15 to-[#0ea5e9]/10 border border-white/10 rounded-3xl p-8 text-center">
-    <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3" style="margin-top:0">Нашли нужную стремянку?</h2>
-    <p class="text-white/60 mb-6 max-w-md mx-auto">Напишите нам — подберём модель под вашу задачу, высоту и бюджет. Ответим за 15 минут.</p>
+  <div class="mt-14 bg-gradient-to-br from-[#f5901f]/15 to-[#0ea5e9]/10 border border-[#e8ebee] rounded-3xl p-8 text-center">
+    <h2 class="text-2xl sm:text-3xl font-bold text-[#1055a5] mb-3" style="margin-top:0">Нашли нужную стремянку?</h2>
+    <p class="text-[#8493a1] mb-6 max-w-md mx-auto">Напишите нам — подберём модель под вашу задачу, высоту и бюджет. Ответим за 15 минут.</p>
     <div class="flex flex-col sm:flex-row gap-3 justify-center">
       <a href="https://wa.me/77075061928?text=Здравствуйте!%20Хочу%20подобрать%20стремянку%20SARAYLI."
          target="_blank" rel="noopener"
-         class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#f97316] to-[#0ea5e9] text-white font-semibold px-8 py-4 rounded-2xl text-base">
+         class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#f5901f] to-[#0ea5e9] text-[#1055a5] font-semibold px-8 py-4 rounded-2xl text-base">
         💬 Написать в WhatsApp
       </a>
       <a href="https://t.me/+77075061928"
@@ -260,12 +276,12 @@
         ✈️ Написать в Telegram
       </a>
     </div>
-    <p class="text-white/30 text-xs mt-4">+7 707 506 19 28 · sarayli.kz · Астана, Казахстан</p>
+    <p class="text-[#1055a5]/30 text-xs mt-4">+7 707 506 19 28 · sarayli.kz · Астана, Казахстан</p>
   </div>
 
   <!-- Назад на главную -->
   <div class="mt-10 text-center">
-    <a href="https://sarayli.kz/" class="text-white/40 hover:text-[#f97316] text-sm transition">← Вернуться на главную SARAYLI.KZ</a>
+    <a href="https://sarayli.kz/" class="text-[#93a3b3] hover:text-[#f5901f] text-sm transition">← Вернуться на главную SARAYLI.KZ</a>
   </div>
 
 </article>
