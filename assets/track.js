@@ -7,7 +7,8 @@
     ADS_LABEL_WHATSAPP: '',// метка конверсии «Клик WhatsApp»
     ADS_LABEL_PHONE: '',   // метка конверсии «Клик телефон»
     ADS_LABEL_LEAD: '',    // метка конверсии «Заявка с сайта»
-    META_PIXEL_ID: ''      // напр. '123456789012345'
+    META_PIXEL_ID: '',     // напр. '123456789012345'
+    YM_ID: 107051685       // Яндекс Метрика sarayli.kz
   };
 
   window.dataLayer = window.dataLayer || [];
@@ -39,6 +40,17 @@
     fbq('track', 'PageView');
   }
 
+  // Яндекс Метрика
+  if (CFG.YM_ID && typeof window.ym !== 'function') {
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments); };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t); a = e.getElementsByTagName(t)[0]; k.async = 1; k.src = r; a.parentNode.insertBefore(k, a);
+    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+    ym(CFG.YM_ID, 'init', { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true });
+  }
+
   var sent = {};
   function track(kind, detail) {
     var key = kind + '|' + (detail || '');
@@ -49,6 +61,7 @@
     if (gId) gtag('event', kind, params);
     var label = kind === 'whatsapp_click' ? CFG.ADS_LABEL_WHATSAPP : kind === 'phone_click' ? CFG.ADS_LABEL_PHONE : CFG.ADS_LABEL_LEAD;
     if (CFG.ADS_ID && label) gtag('event', 'conversion', { send_to: CFG.ADS_ID + '/' + label });
+    if (CFG.YM_ID && typeof window.ym === 'function') ym(CFG.YM_ID, 'reachGoal', kind);
     if (typeof window.fbq === 'function') fbq('track', kind === 'lead_form' ? 'Lead' : 'Contact', { content_name: kind });
   }
   window.saraylyTrack = track;
